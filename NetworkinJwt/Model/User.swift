@@ -16,7 +16,4 @@ struct User: Codable {
     
 }
 
-struct AuthBody:Codable {
-    let login: String
-    let password: String
-}
+

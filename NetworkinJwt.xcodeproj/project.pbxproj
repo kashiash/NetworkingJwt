@@ -13,6 +13,10 @@
 		3F13A1CE294E4FE70068DD6D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F13A1CD294E4FE70068DD6D /* Preview Assets.xcassets */; };
 		3F13A1D8294E50320068DD6D /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F13A1D7294E50320068DD6D /* User.swift */; };
 		3F13A1DA294E50EC0068DD6D /* TokensInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F13A1D9294E50EC0068DD6D /* TokensInfo.swift */; };
+		3F13A1DD294E57860068DD6D /* TokenInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F13A1DC294E57860068DD6D /* TokenInfo.swift */; };
+		3F13A1DF294E57BC0068DD6D /* AuthBody.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F13A1DE294E57BC0068DD6D /* AuthBody.swift */; };
+		3F13A1E1294E57EC0068DD6D /* ErrorResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F13A1E0294E57EC0068DD6D /* ErrorResponse.swift */; };
+		3F13A1E3294E58800068DD6D /* Developer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F13A1E2294E58800068DD6D /* Developer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		3F13A1CD294E4FE70068DD6D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3F13A1D7294E50320068DD6D /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		3F13A1D9294E50EC0068DD6D /* TokensInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokensInfo.swift; sourceTree = "<group>"; };
+		3F13A1DC294E57860068DD6D /* TokenInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokenInfo.swift; sourceTree = "<group>"; };
+		3F13A1DE294E57BC0068DD6D /* AuthBody.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthBody.swift; sourceTree = "<group>"; };
+		3F13A1E0294E57EC0068DD6D /* ErrorResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorResponse.swift; sourceTree = "<group>"; };
+		3F13A1E2294E58800068DD6D /* Developer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Developer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +89,10 @@
 			children = (
 				3F13A1D7294E50320068DD6D /* User.swift */,
 				3F13A1D9294E50EC0068DD6D /* TokensInfo.swift */,
+				3F13A1DC294E57860068DD6D /* TokenInfo.swift */,
+				3F13A1DE294E57BC0068DD6D /* AuthBody.swift */,
+				3F13A1E0294E57EC0068DD6D /* ErrorResponse.swift */,
+				3F13A1E2294E58800068DD6D /* Developer.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -169,10 +181,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F13A1E3294E58800068DD6D /* Developer.swift in Sources */,
 				3F13A1C8294E4FE70068DD6D /* ContentView.swift in Sources */,
+				3F13A1DF294E57BC0068DD6D /* AuthBody.swift in Sources */,
 				3F13A1C6294E4FE70068DD6D /* NetworkinJwtApp.swift in Sources */,
 				3F13A1D8294E50320068DD6D /* User.swift in Sources */,
+				3F13A1DD294E57860068DD6D /* TokenInfo.swift in Sources */,
 				3F13A1DA294E50EC0068DD6D /* TokensInfo.swift in Sources */,
+				3F13A1E1294E57EC0068DD6D /* ErrorResponse.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

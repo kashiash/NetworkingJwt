@@ -15,7 +15,4 @@ struct TokensInfo: Codable {
     let refreshTokenExpire: Int64
 }
 
-struct TokenInfo {
-    let token: String
-    let expiresAt: Int64
-}
+

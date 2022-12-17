@@ -21,6 +21,8 @@
 		3F13A1E8294E5D8C0068DD6D /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F13A1E7294E5D8C0068DD6D /* Extensions.swift */; };
 		3F13A1EA294E5DCF0068DD6D /* Errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F13A1E9294E5DCF0068DD6D /* Errors.swift */; };
 		3F13A1ED294E5ED50068DD6D /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F13A1EC294E5ED50068DD6D /* Endpoint.swift */; };
+		3F13A1EF294E7AB60068DD6D /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F13A1EE294E7AB60068DD6D /* Result.swift */; };
+		3F13A1F1294E7AF10068DD6D /* Requester.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F13A1F0294E7AF10068DD6D /* Requester.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +42,8 @@
 		3F13A1E7294E5D8C0068DD6D /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		3F13A1E9294E5DCF0068DD6D /* Errors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Errors.swift; sourceTree = "<group>"; };
 		3F13A1EC294E5ED50068DD6D /* Endpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
+		3F13A1EE294E7AB60068DD6D /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+		3F13A1F0294E7AF10068DD6D /* Requester.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Requester.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,6 +139,8 @@
 			isa = PBXGroup;
 			children = (
 				3F13A1EC294E5ED50068DD6D /* Endpoint.swift */,
+				3F13A1EE294E7AB60068DD6D /* Result.swift */,
+				3F13A1F0294E7AF10068DD6D /* Requester.swift */,
 			);
 			path = Networking;
 			sourceTree = "<group>";
@@ -210,8 +216,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				3F13A1E3294E58800068DD6D /* Developer.swift in Sources */,
+				3F13A1EF294E7AB60068DD6D /* Result.swift in Sources */,
 				3F13A1C8294E4FE70068DD6D /* ContentView.swift in Sources */,
 				3F13A1DF294E57BC0068DD6D /* AuthBody.swift in Sources */,
+				3F13A1F1294E7AF10068DD6D /* Requester.swift in Sources */,
 				3F13A1C6294E4FE70068DD6D /* NetworkinJwtApp.swift in Sources */,
 				3F13A1D8294E50320068DD6D /* User.swift in Sources */,
 				3F13A1E8294E5D8C0068DD6D /* Extensions.swift in Sources */,
